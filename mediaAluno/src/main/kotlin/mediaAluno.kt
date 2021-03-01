@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     val nome = args[0]
     val matricula = args[1]
-    val idade = 17
+    val idade = 20
     val nota = listOf(args[2], args[3], args[4], args[5]).map(String::toDouble)
     val media = mediaAluno(nota[0], nota[1], nota[2], nota[3])
 
